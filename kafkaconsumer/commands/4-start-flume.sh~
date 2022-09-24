@@ -1,0 +1,3 @@
+cd ..
+flume-ng agent -n tweet-agent -f confg/flume.conf -Xmx1024m
+

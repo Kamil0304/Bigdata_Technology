@@ -1,0 +1,2 @@
+cd ../target
+spark-submit --class "spark.processing.FlumeListener" --master local[2] Twitter-0.0.1-SNAPSHOT.jar 

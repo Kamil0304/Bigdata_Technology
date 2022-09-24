@@ -1,0 +1,2 @@
+cd ../Tweets
+mvn exec:java

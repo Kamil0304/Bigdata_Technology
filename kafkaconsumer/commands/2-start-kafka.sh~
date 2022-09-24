@@ -1,0 +1,6 @@
+cd /home/cloudera/Desktop/MyLabs/Project/kafka_2.13-3.0.0/bin
+
+./kafka-server-start.sh ../config/server.properties
+./kafka-topics.sh --create --topic tweets --zookeeper localhost:9092
+
+
