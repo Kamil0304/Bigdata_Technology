@@ -1,7 +1,7 @@
 # Bigdata_Technology
 I have two producer and consumer. 
 
-For consumer part , below are cmy configuration informations where required tools are setup
+For consumer part , below are my configuration informations where required tools are setup
 
   kafaka zookeeper - 
     -cd "D:\MIU\serverBD\kafka_2.10-0.9.0.1\bin\windows"
@@ -15,3 +15,6 @@ Kafaka server -
 Creating kafka tpoic - 
 - cd "D:\MIU\serverBD\kafka_2.10-0.9.0.1\bin\windows"
 - kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic tweets
+
+
+To run , kafka server and zookeper , I have prepared a script on prject explorer. right click and run will start the servers.
