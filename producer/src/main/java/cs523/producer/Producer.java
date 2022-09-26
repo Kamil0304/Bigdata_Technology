@@ -42,10 +42,10 @@ public class Producer {
 		// Term that I want to search on Twitter
 		hbEndpoint.trackTerms(trackTerms);
 		// Twitter API and tokens
-		Authentication hosebirdAuth = new OAuth1("1R5FaVapm53Gnc0OgijvMmd28",
-				"xlggPOkv9C61OcEW9JznROomkKPqPwZxBJAg25DsKwnUT7506y",
-				"154526910-OBcHAEnnraYFLBj5YEZlw2KtoUULzROIBnkcorVG",
-				"dLnUIaAE2t7jAlzTYNY3dkaSGBIMMtBi3kCbWcUNj6SEZ");
+		Authentication hosebirdAuth = new OAuth1("uqz4d8c8SR0kHIWiwp6mpMjjo",
+				"Lvub277MsbamiDkwk6F6v2ait0opwaPsm5NPI9dczzBzlUWNs6",
+				"43398704-WM4dK8nhJ8tHIAi6ArrUm5nTMdPdxaB1trDLYqFNI",
+				"xCCTo8Y2eocDh9cok3DYB99ZKKGwg4EEWssMLOfQKZImk");
 
 		/** Creating a client */
 		ClientBuilder builder = new ClientBuilder().name("Hosebird-Client")
